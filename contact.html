@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact Us | Agribloom Farms</title>
+<meta name="description" content="Fresh avocados and vegetables, grown with care and prepared for trade buyers." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main>
+  <header class="site-header inner-header">
+    <a class="brand" href="index.html" aria-label="Agribloom Farms home">
+      <img src="agribloom-logo.jpeg" alt="" /><span>AGRIBLOOM<br />FARMS</span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-label="Toggle menu"><i></i><i></i></button>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="farming-practices.html">Farming Practices</a>
+      <a href="operations.html">Our Operations</a>
+      <a href="buyers-exporters.html">For Buyers &amp; Exporters</a>
+      <a href="investors.html">Investors</a>
+      <a href="gallery.html">Gallery &amp; Blog</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html" class="nav-cta">Contact Us <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <section class="contact-page section-pad">
+    <div class="contact-page-copy">
+      <p class="eyebrow">Contact Us</p>
+      <h1>Let's start a conversation.</h1>
+      <p>For sales enquiries, export conversations, farm visit requests, careers, and investor routing.</p>
+      <div class="contact-note"><b>Contact details</b><span>The approved farm address, telephone number, email address, and map location have not yet been supplied for publication.</span></div>
+    </div>
+    <div class="enquiry">
+      <form>
+        <label>Name<input required name="name" placeholder="Your full name" /></label>
+        <label>Work email<input required type="email" name="email" placeholder="name@company.com" /></label>
+        <label>Company<input name="company" placeholder="Company name" /></label>
+        <label>Enquiry type<select required name="interest">
+          <option value="" disabled selected>Select one</option>
+          <option>Sales / produce</option>
+          <option>Buyer / exporter</option>
+          <option>Investment or partnership</option>
+          <option>Farm visit</option>
+          <option>Careers</option>
+          <option>General enquiry</option>
+        </select></label>
+        <label class="wide">Message<textarea required name="message" placeholder="For produce enquiries, include product, grade, volume, pack, destination, and timing where possible."></textarea></label>
+        <button class="submit" type="submit">Send enquiry <span aria-hidden="true">↗</span></button>
+      </form>
+      <div class="success" role="status" hidden>
+        <span>✓</span><h3>Thank you.</h3><p>Your enquiry has been captured in this website preview. Connect the form to Agribloom's approved email address before public launch.</p>
+        <button type="button">Send another enquiry</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand"><img src="agribloom-logo.jpeg" alt="Agribloom Farms Limited" /><p>Cultivating nature's best.</p></div>
+      <div><p class="footer-label">Explore</p><a href="products.html">Products</a><a href="farming-practices.html">Farming Practices</a><a href="operations.html">Our Operations</a><a href="buyers-exporters.html">Buyers &amp; Exporters</a></div>
+      <div><p class="footer-label">Connect</p><a href="investors.html">Investors</a><a href="gallery.html">Gallery &amp; Blog</a><a href="careers.html">Careers</a><a href="contact.html">Contact Us</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span class="footer-year"></span> Agribloom Farms Limited</span><span>Privacy · Terms</span><span>Part of Evergreen Holdings Ltd</span></div>
+  </footer>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
